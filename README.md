@@ -6,12 +6,12 @@ Prosty panel do zarządzania usługami systemowymi.
 ## Instalacja i uruchomienie
 
 1. Sklonuj repozytorium: `git clone <repozytorium>`
-2. Przejdź do folderu backend: `cd service-manager/backend`
-3. Utwórz wirtualne środowisko (zalecane): `python3 -m venv .venv`
-4. Aktywuj wirtualne środowisko: `source .venv/bin/activate` (Linux/macOS) lub `.venv\Scripts\activate` (Windows)
-5. Zainstaluj zależności: `pip install -r requirements.txt`
-6. Uruchom backend: `python app.py`
-7. Otwórz `frontend/index.html` w przeglądarce.
+2. Przejdź do folderu backend: `cd panel_sm/backend`
+4. Utwórz wirtualne środowisko (zalecane): `python3 -m venv .venv`
+5. Aktywuj wirtualne środowisko: `source .venv/bin/activate` (Linux/macOS) lub `.venv\Scripts\activate` (Windows)
+6. Zainstaluj zależności: `pip install -r requirements.txt`
+7. Uruchom backend: `python app.py`
+8. Otwórz `frontend/index.html` w przeglądarce.
 
 ## Konfiguracja Cloudflare Tunnel
 
